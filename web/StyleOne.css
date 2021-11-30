@@ -1,0 +1,88 @@
+html{
+
+}
+body{
+	background-color: #efefef;
+}
+.header{
+	border-radius: 25px;
+  	background-size: cover;
+	background-image: url("img/Header.jpg");
+	font-family: 'Handlee',cursive;
+	color: white;
+	padding-bottom: 45px;
+
+}
+}
+.osnova{
+	min-height: 90%;
+	background-color: #ffff;
+	margin-top: -10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-radius: 25px;
+	font-family: 'Handlee',cursive;
+}
+
+.header menu{
+	display: inline;
+	width: inherit;
+
+}
+h1{
+	font-size: 40pt;
+	color: white;
+	text-align: left;
+	padding: 25px 10px 10px 10px;
+	margin: 0 0 0 0;	
+	margin-left: 20px;
+}
+h1 span{
+	border: 10px dashed #ffff;
+	padding: 0px 5px 5px 5px;
+}
+.menu{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	margin-right: 20px;
+	font-size: 30px;
+}
+.menu li{
+	float:left;
+	margin-right:10px;
+	color: white;
+}
+.menu ul{
+	list-style: none;
+	margin: 0; 
+	padding-left: 0;
+
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+	padding: 3px 3px 3px 3px;
+	-moz-transition: all 0.3s 0.01s ease;
+ 	-o-transition: all 0.3s 0.01s ease;
+ 	-webkit-transition: all 0.3s 0.01s ease;
+}
+.menu a:hover {
+  border-radius:6px;
+}
+.menu li ul{
+	position:absolute;
+    display:none
+}
+.menu li:hover ul {
+	 display:block; 
+     width:95px;
+     background-color: black;
+     border-radius: 5px;
+}
+.menu .submenu:hover li{
+	 float:none;
+}
+.menu .submenu a{
+	color: white;
+}
